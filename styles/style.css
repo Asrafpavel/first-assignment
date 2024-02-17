@@ -3,11 +3,15 @@
     padding: 0;
 }
 
+body{
+    margin: 0 70px;
+}
+
 /* -------------- header styles ------------- */
 header{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.753) , rgba(0, 0, 0, 0.637) , rgba(137, 43, 226, 0.158) ), url("../resources/banner-img.png");
     height: 65vh;
-    margin: 30px 70px 100px 70px;
+    margin: 30px 0 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -69,7 +73,7 @@ header{
 .party-section {
     height: 65vh;
     background-image: linear-gradient(to right , rgba(0, 0, 0, 0.911) , rgba(137, 43, 226, 0.096)), url("../resources/Vectorrr.png");
-    margin: 100px 70px 100px 70px;
+    margin: 100px 0 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -96,4 +100,33 @@ header{
     border-radius: 5px;
     color: white;
     font-weight: 600;
+}
+
+/* ------ location styles ------  */
+
+.location {
+    height: 50vh;
+    background-image: linear-gradient(to bottom , rgba(255, 0, 0, 0.158) , white );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.location-items > h3 {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.location-items > button {
+    margin-top: 30px;
+    background-color: red;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.highlight{
+    color: red;
 }
