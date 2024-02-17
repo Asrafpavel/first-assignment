@@ -206,7 +206,6 @@ header{
 
 .portfolio{
     margin-top: 100px;
-    height: 70vh;
 }
 .portfolio-details > h1{
     font-size: 30px;
@@ -225,8 +224,49 @@ header{
 }
 .gift-items img{
     width: 100%;
+    transform: scale(1);
 }
 .effect:hover img{
     transform: scale(.92);
     transition:.5s ease-out;
+}
+
+/* subscribe styles */
+
+.subscribe{
+    margin-top: 100px;
+    height: 60vh;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.096) , rgba(255, 0, 0, 0.151));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.subscribe-items{
+    text-align: center;
+}
+.subscribe-items > h1{
+    margin-top: 20px;
+    font-size: 35px;
+}
+form{
+    margin-top: 40px;
+    position: relative;
+    
+}
+input[type="text"]{
+    width: 350px;
+    padding: 15px;
+    border: 0;
+    border-radius: 25px 0 0 25px;
+    
+
+}
+button{
+    padding: 15px 40px;
+    border: 0;
+    background-color: red;
+    position: absolute;
+    color: white;
+    border-radius: 0 25px 25px 0;
 }
