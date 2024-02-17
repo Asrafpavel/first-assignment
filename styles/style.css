@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------- header styles ------------- */
+header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.788) , rgba(0, 0, 0, 0.384) ), url("../resources/banner-img.png");
+    height: 70vh;
+    /* width: 90vw; */
+    margin: 30px 70px 100px 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-items{
+    text-align: center;
+    color: white;
+}
+.banner-items > p {
+    font-size: 30px;
+    font-weight: 500;
+}
+.banner-title{
+    margin-top: 10px;
+    font-size: 60px;
+}
