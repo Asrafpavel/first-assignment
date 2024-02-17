@@ -130,3 +130,40 @@ header{
 .highlight{
     color: red;
 }
+
+/* coming soon styles  */
+
+.coming-soon{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-1 > .highlight{
+    font-weight: 500;
+}
+.item-1 > h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.rounded img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 8px solid red;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.item-3 > .highlight{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.item-3 > p{
+    margin-bottom: 30px;
+}
