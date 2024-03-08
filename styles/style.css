@@ -151,9 +151,9 @@ header{
     margin-bottom: 20px;
 }
 
-.rounded img{
-    height: 350px;
-    width: 350px;
+.coming-soon-rounded img{
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 8px solid red;
     box-sizing: border-box;
